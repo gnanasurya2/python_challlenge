@@ -1,6 +1,7 @@
 # the text from the the page source to copied to the filed named 'level_3.txt
 text = open("level_3.txt")
 char = []
+# for loop to iterate through the loop
 for line in text:
     for c in line:
         if c not in char:
